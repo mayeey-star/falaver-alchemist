@@ -1,0 +1,235 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4DFA1; /* Soft Pearl */
+  color: #161616; /* Obsidian Black */
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #161616; /* Obsidian Black */
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #F4DFA1; /* Soft Pearl */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #B5895F; /* Warm Sand */
+}
+
+.hero {
+  background-color: #710101; /* Crimson Depth */
+  padding: 100px 20px;
+  text-align: center;
+  color: #F4DFA1; /* Soft Pearl */
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #F4DFA1; /* Soft Pearl */
+  border-radius: 10px;
+  color: #161616;
+}
+
+.menu-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(22, 22, 22, 0.3); /* soft Obsidian shadow */
+}
+
+button {
+  background-color: #710101; /* Crimson Depth */
+  color: #F4DFA1; /* Soft Pearl */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #B5895F; /* Warm Sand */
+}
+
+footer {
+  background-color: #161616; /* Obsidian Black */
+  color: #F4DFA1;
+  text-align: center;
+  padding: 15px 0;
+}
+.whats-new {
+    padding: 40px 20px;
+    background-color: #710101; /* Pale Gold */
+    color: #161616; /* Obsidian Black */
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .whats-new h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #F4DFA1; /* Crimson Depth */
+  }
+  
+  .updates-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .update-section {
+    width: 48%; /* Adjusts to two sections side by side */
+  }
+  
+  .update-section h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #F4DFA1; /* Crimson Depth */
+  }
+  
+  .update-item {
+    background-color: #F4DFA1; /* Soft Gold */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.1); /* Light shadow */
+    margin-bottom: 15px;
+  }
+  
+  .update-item h4 {
+    font-size: 1.5em;
+    color: #710101; /* Crimson Depth */
+    margin-bottom: 10px;
+  }
+  
+  .update-item p {
+    font-size: 1.1em;
+    color: #161616;
+  }
+  body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    background-image: url('background.png'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.5);
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+  }
+  
+  h1, h2 {
+    color: #710101;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+  }
+  
+  p, li {
+    line-height: 1.6;
+  }
+  
+  .item {
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    float: right;
+    color: #161616;
+  }
+  
+  .floating-sections {
+    position: relative;
+    height: 0;
+    z-index: 10;
+  }
+  
+  .floating-images {
+    position: absolute;
+    top: 100px; /* Pushed them down a bit */
+    left: 0;
+    width: 100%; /* Full page width */
+    height: 100%; /* Full page height */
+    pointer-events: none; /* Keep clicks unblocked */
+    z-index: 1;
+  }
+  
+  .float-img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    border: 3px solid #fff;
+    animation: float 8s ease-in-out infinite;
+    transition: transform 0.3s ease;
+    pointer-events: auto;
+  }
+  
+  /* Spread images across the page, keeping them randomly placed */
+  
+  .one { top: 100px; left: 3%; }
+  .two { top: 300px; right: 5%; }
+  .three { top: 450px; left: 12%; }
+  .four { top: 600px; right: 10%; }
+  
+  .five { top: 750px; left: 4%; }
+  .six { top: 900px; right: 12%; }
+  .seven { top: 1050px; left: 10%; }
+  .eight { top: 1200px; right: 6%; }
+  .nine { top: 1350px; left: 4%; }
+  .ten { top: 1500px; right: 12%; }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-60px);
+    }
+  }
+  
+     
+  
